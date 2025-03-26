@@ -2,7 +2,7 @@
 Blender add-on that automatically sets the render resolution to the active camera's bg image dimensions (if it has one)
 
 ## Use Case
-Suppose you are trying build a scene based on reference images, such as from photographs used as camera background images with the [fspy-addon](https://github.com/stuffmatic/fSpy-Blender). The imported cameras may have background images that are different sizes. When you switch between these cameras, the bounds of the cameras may not fit the background image dimensions because the Render Resolution does not change when you switch cameras. You have to manually inspect the active camera's background image dimensions and change the render resolution yourself each time.
+Suppose you are trying build a scene based on reference images, such as from photographs used as camera background images with the [fspy-addon](https://github.com/stuffmatic/fSpy-Blender). The imported cameras may have background images that are different sizes. When you switch between these cameras, the images may appear stretched because the Render Resolution does not change when you switch cameras.
 
 This addon will automatically set the Render Resolution to match the dimensions of the active camera's background image, if it has one.
 
