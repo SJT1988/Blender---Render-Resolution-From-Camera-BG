@@ -7,7 +7,7 @@ Suppose you are trying build a scene based on reference images, such as from pho
 This addon will automatically set the Render Resolution to match the dimensions of hte active camera's background image, if it has one.
 
 ## Instructions
-1. Download the python file attached to this repository.
+1. Download the python file **RenderResFromCamBG.py** attached to this repository.
 2. Open Blender and go to
 Edit -> Preferences -> Add-ons -> (top-right dropdown menu) -> Install from Disk
 3. Choose the python file you downloaded.
