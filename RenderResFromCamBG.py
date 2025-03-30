@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Set Render Resolution from Camera BG Image Dimensions",
     "author": "Spencer Trumbore",
-    "version": (1,0,0),
+    "version": (1,0,1),
     "blender": (4,4,0),
     "location": "Scene Properties > Render",
     "description": "Automatically matches render resolution to camera background image dimensions",
@@ -9,7 +9,9 @@ bl_info = {
 }
 
 import bpy
+from bpy.app.handlers import persistent
 
+@persistent
 def camera_handler(scene):
     if not scene.camera or not scene.camera.data:
         return
